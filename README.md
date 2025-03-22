@@ -1,21 +1,21 @@
-### **HTTP Parameter Pollution (HPP) ** 
+### HTTP Parameter Pollution (HPP)
 HTTP Parameter Pollution (HPP) is a web vulnerability where an attacker manipulates HTTP request parameters by injecting multiple instances of the same parameter. This can lead to security bypasses, authentication flaws, logic manipulation, and even WAF evasion.  
 
 ---
 
-## **1. Types of HPP**  
+## 1. Types of HPP  
 
-### **1️) Client-Side HPP**  
+### 1️) Client-Side HPP  
 Occurs when multiple parameters are injected into a URL, and the browser or frontend application processes them incorrectly.  
 
-#### **Example:**  
+#### Example:  
 A victim clicks a crafted link with multiple `role` parameters:  
 ```
 https://example.com/login?user=admin&role=user&role=admin
 ```
 -> If the application does not properly validate the parameters, it might grant the attacker **admin privileges** instead of user access.  
 
- >>**Use case:** Bypassing security restrictions or forcing unintended behavior in the frontend.
+ >> Use case: Bypassing security restrictions or forcing unintended behavior in the frontend.
 
 ---
 
