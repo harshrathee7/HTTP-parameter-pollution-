@@ -56,7 +56,7 @@ https://example.com/search?q=<script>&q=alert(1)</script>
 
 ---
 
-### ** Authentication Bypass**
+### Authentication Bypass
 - Some authentication systems rely on a single `role` parameter.
 - Injecting multiple `role` parameters may allow privilege escalation.  
 
