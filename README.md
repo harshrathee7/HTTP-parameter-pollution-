@@ -165,7 +165,7 @@ This guide will help you **host, test, and exploit** the vulnerable PHP web app.
 
 ## **3️. Exploiting HTTP Parameter Pollution (HPP)**  
 
-### ** Client-Side HPP Attack (Bypassing Login)**  
+### **Client-Side HPP Attack (Bypassing Login)**  
 1️) Open your browser and visit:  
    ```
    http://localhost:8000/hpp_lab.php?user=attacker&role=user&role=admin
@@ -174,7 +174,7 @@ This guide will help you **host, test, and exploit** the vulnerable PHP web app.
 
 ---
 
-### ** Server-Side HPP Attack (Transaction Manipulation)**  
+### **Server-Side HPP Attack (Transaction Manipulation)**  
 1️) Open **Burp Suite** or **ZAP Proxy** and intercept a **POST request**:  
    ```plaintext
    POST /hpp_lab.php HTTP/1.1
