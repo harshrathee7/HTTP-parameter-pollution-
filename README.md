@@ -39,7 +39,7 @@ amount=1000&currency=USD&currency=INR
 
 ## **2. HPP Attack Techniques**  
 
-### ** WAF Evasion**
+### WAF Evasion
 - Web Application Firewalls (WAFs) often block specific attack payloads.
 - Injecting extra parameters can bypass detection.  
 
@@ -69,7 +69,7 @@ username=admin&role=user&role=admin
 
 ---
 
-### ** API Parameter Exploitation**
+### API Parameter Exploitation
 - REST APIs often merge parameters.
 - Attackers can override security-related parameters.  
 
